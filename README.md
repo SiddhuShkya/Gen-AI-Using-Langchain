@@ -2,7 +2,8 @@
 
 🚀 A hands-on learning journey into **Generative AI** using [LangChain](https://www.langchain.com/) — a powerful Python framework for building applications with LLMs (Large Language Models).  
 
-This repository contains **codes, notebooks, and documents** I created while following the **CampusX tutorial playlist** on Generative AI with LangChain:  
+This repository contains **codes, notebooks, and documents** I created while following the **CampusX tutorial playlist** on Generative AI with LangChain: 
+ 
 ▶️ [CampusX LangChain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)
 
 ---
