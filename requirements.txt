@@ -24,3 +24,6 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# Graph Visualization (needed for chain.get_graph().print_ascii())
+grandalf
