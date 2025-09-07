@@ -4,8 +4,6 @@
 
 This repository contains **codes, notebooks, and documents** I created while following the **CampusX tutorial playlist** on Generative AI with LangChain: 
 
- ## 📺 LangChain Playlist
-
 ▶️ [CampusX LangChain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)
 
 ---
