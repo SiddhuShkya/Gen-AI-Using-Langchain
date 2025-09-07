@@ -6,7 +6,7 @@ This repository contains **codes, notebooks, and documents** I created while fol
 
 ▶️ ## 📺 LangChain Playlist
 
-[![CampusX LangChain Playlist]([https://i.ytimg.com/vi/kykSaHicu1M/maxresdefault.jpg](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0))]
+👉 [CampusX LangChain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)
 
 ---
 
