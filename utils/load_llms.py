@@ -9,6 +9,17 @@ load_dotenv()
 api_token = os.getenv("HUGGINGFACEHUB_ACCESS_TOKEN")
 
 
+def load_llama():
+    llm = HuggingFaceEndpoint(
+        repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        task ="text-generation",
+        huggingfacehub_api_token=api_token
+    )
+    model = ChatHuggingFace(
+        llm=llm,
+    )
+    return model
+    
 def load_gemma():
     llm = HuggingFaceEndpoint(
         repo_id="google/gemma-2-2b-it",
