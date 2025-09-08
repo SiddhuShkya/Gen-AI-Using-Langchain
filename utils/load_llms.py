@@ -1,4 +1,4 @@
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint, HuggingFacePipeline
 from langchain_openai import ChatOpenAI # type: ignore
 from langchain_anthropic import ChatAnthropic
 from dotenv import load_dotenv
@@ -41,7 +41,22 @@ def load_mistral():
     model = ChatHuggingFace(llm=llm)
     return model
 
-    
+
+def load_local_llm():
+    llm = HuggingFacePipeline.from_model_id(
+        model_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        task="text-generation",
+        model_kwargs={
+            "torch_dtype": "auto",
+            "low_cpu_mem_usage": True,
+            "device_map": "cpu"
+        },
+    )
+    model = ChatHuggingFace(
+        llm=llm,
+    )
+    return model
+
 def load_openai():
     model = ChatOpenAI()
     return model
