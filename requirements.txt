@@ -17,6 +17,7 @@ google-generativeai
 langchain-huggingface
 transformers
 huggingface-hub
+torch
 
 # Environment Variable Management
 python-dotenv
@@ -27,3 +28,9 @@ scikit-learn
 
 # Graph Visualization (needed for chain.get_graph().print_ascii())
 grandalf
+
+# Hugging Face runtime optimization
+accelerate
+
+# Hugging Face Embeddings
+sentence-transformers
