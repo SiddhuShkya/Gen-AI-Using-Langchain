@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Please create a summary of the research topic titled \"{paper_input}\".\n\n    Write the explanation in the following way:\n    - Style: {style_input}\n    - Length: {length_input}\n\n    1. Provide key concepts, potential applications, and current trends in this research area.\n    2. Include mathematical details or equations only if they are commonly associated with this field.\n    3. Use analogies to make complex ideas more relatable.\n\n    If information is highly speculative, make reasonable assumptions instead of saying 'insufficient information'.\n    Ensure the summary is clear, accurate, and aligned with the provided style and length.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
