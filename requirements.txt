@@ -34,3 +34,6 @@ accelerate
 
 # Hugging Face Embeddings
 sentence-transformers
+
+# Steramlit for UI
+streamlit
