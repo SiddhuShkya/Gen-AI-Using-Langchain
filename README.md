@@ -42,6 +42,5 @@ Through this repo, I aim to:
 ## 📖 Tutorials Reference
 
 All credits to **CampusX** for their amazing playlist:  
-▶️ [LangChain Tutorial Series (CampusX)](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)  
 
 I am learning step-by-step by coding along with this series.  
