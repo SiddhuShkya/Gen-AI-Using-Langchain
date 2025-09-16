@@ -1,39 +1,41 @@
+# python version used : Python 3.12.3
+
 # LangChain Core
-langchain
-langchain-core
+langchain==0.3.27
+langchain-core==0.3.75
 
 # OpenAI Integration
-langchain-openai
-openai
+langchain-openai==0.3.32
+openai==1.106.1
 
 # Anthropic Integration
-langchain-anthropic
+langchain-anthropic==0.3.19
 
 # Google Gemini (PaLM) Integration
-langchain-google-genai
-google-generativeai
+langchain-google-genai==2.0.10
+google-generativeai==0.8.5
 
 # Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
-torch
+langchain-huggingface==0.3.1
+transformers==4.56.1
+huggingface-hub==0.34.4
+torch==2.8.0+cpu
 
 # Environment Variable Management
-python-dotenv
+python-dotenv==1.1.1
 
 # Machine Learning Utilities
-numpy
-scikit-learn
+numpy==2.3.2
+scikit-learn==1.7.1
 
-# Graph Visualization (needed for chain.get_graph().print_ascii())
-grandalf
+# Graph Visualization
+grandalf==0.8
 
 # Hugging Face runtime optimization
-accelerate
+accelerate==1.10.1
 
 # Hugging Face Embeddings
-sentence-transformers
+sentence-transformers==5.1.0
 
-# Steramlit for UI
-streamlit
+# Streamlit for UI
+streamlit==1.49.1
