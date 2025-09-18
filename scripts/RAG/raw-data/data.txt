@@ -1,0 +1,7 @@
+In a Retrieval-Augmented Generation (RAG) application, the flow begins with document loaders, which pull data from various sources like PDFs, websites, or APIs into the system. 
+
+These documents are then passed to text splitters, which break large texts into smaller, semantically meaningful chunks that are easier to embed and retrieve later. The chunks are converted into vector embeddings and stored in a vector database, where they can be efficiently indexed and searched. 
+
+When a user submits a query, the retriever searches this vector database to find the most relevant chunks of information. 
+
+Finally, these retrieved chunks are combined with the user’s query and passed into the LLM, which generates a context-aware response that is grounded in the retrieved knowledge rather than relying solely on its internal memory.
