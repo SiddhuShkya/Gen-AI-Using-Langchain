@@ -40,3 +40,9 @@ sentence-transformers==5.1.0
 
 # Streamlit for UI
 streamlit==1.49.1
+
+# pypdf for PDF handling
+pypdf==6.0.0
+
+# BeautifulSoup for web scraping
+beautifulsoup4==4.13.5
